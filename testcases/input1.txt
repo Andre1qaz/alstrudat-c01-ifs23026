@@ -1,2 +1,2 @@
-PENGGUNA MELAKUKAN COMPILE KODE PROGRAM DI DALAM APLIKASI YANG SUDAH DI BUAT
-Pengguna memasukkan angka 0-11 untuk memilih menu.
+1
+0
