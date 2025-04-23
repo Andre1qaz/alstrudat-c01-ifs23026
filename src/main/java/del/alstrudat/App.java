@@ -54,6 +54,7 @@ public class App {
                 default:
                     System.out.println("Pilihan tidak valid!");
             }
+            
 
             if (running) {
                 System.out.println("\nTekan Enter untuk melanjutkan...");
