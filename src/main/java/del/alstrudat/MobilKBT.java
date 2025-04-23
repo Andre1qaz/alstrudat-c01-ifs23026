@@ -4,11 +4,9 @@ import java.util.Scanner;
 
 public class MobilKBT {
     private LinkedList<DataMobilKBT> daftarMobil;
-    private Scanner scanner;
 
     public MobilKBT() {
         this.daftarMobil = new LinkedList<>();
-        this.scanner = new Scanner(System.in);
         initializeData();
     }
 
@@ -39,7 +37,7 @@ public class MobilKBT {
     public void tambahMobil() {
         System.out.println("\n=== TAMBAH MOBIL KBT ===");
         System.out.print("ID Mobil: ");
-        String id = scanner.nextLine();
+        String id = Util.getScanner().nextLine();
         
         // Cek apakah ID sudah ada
         if (cariMobilById(id) != null) {
@@ -48,10 +46,11 @@ public class MobilKBT {
         }
         
         System.out.print("Nama Mobil: ");
-        String nama = scanner.nextLine();
+        String nama = Util.getScanner().nextLine();
+
         
         System.out.print("Jenis Mobil: ");
-        String jenis = scanner.nextLine();
+        String jenis = Util.getScanner().nextLine(); 
         
         double dayaListrik = 0;
         int kapasitasBaterai = 0;
@@ -60,16 +59,16 @@ public class MobilKBT {
         
         try {
             System.out.print("Daya Listrik (kW): ");
-            dayaListrik = Double.parseDouble(scanner.nextLine());
+            dayaListrik = Double.parseDouble(Util.getScanner().nextLine());
             
             System.out.print("Kapasitas Baterai (kWh): ");
-            kapasitasBaterai = Integer.parseInt(scanner.nextLine());
+            kapasitasBaterai = Integer.parseInt(Util.getScanner().nextLine());
             
             System.out.print("Kapasitas Penumpang: ");
-            kapasitasPenumpang = Integer.parseInt(scanner.nextLine());
+            kapasitasPenumpang = Integer.parseInt(Util.getScanner().nextLine());
             
             System.out.print("Jangkauan (km): ");
-            jangkauan = Double.parseDouble(scanner.nextLine());
+            jangkauan = Double.parseDouble(Util.getScanner().nextLine());
         } catch (NumberFormatException e) {
             System.out.println("Input tidak valid! Pastikan input angka yang benar.");
             return;
@@ -99,7 +98,7 @@ public class MobilKBT {
     public void tampilkanDetailMobil() {
         System.out.println("\n=== DETAIL MOBIL KBT ===");
         System.out.print("Masukkan ID Mobil: ");
-        String id = scanner.nextLine();
+        String id = Util.getScanner().nextLine();
         
         DataMobilKBT mobil = cariMobilById(id);
         if (mobil != null) {
@@ -112,7 +111,7 @@ public class MobilKBT {
     public void updateMobil() {
         System.out.println("\n=== UPDATE DATA MOBIL KBT ===");
         System.out.print("Masukkan ID Mobil yang akan diupdate: ");
-        String id = scanner.nextLine();
+        String id = Util.getScanner().nextLine();
         
         DataMobilKBT mobil = cariMobilById(id);
         if (mobil == null) {
@@ -126,38 +125,38 @@ public class MobilKBT {
         System.out.println("\nMasukkan data baru (kosongkan jika tidak ingin mengubah)");
         
         System.out.print("Nama Mobil [" + mobil.getNama() + "]: ");
-        String nama = scanner.nextLine();
+        String nama = Util.getScanner().nextLine();
         if (!nama.isEmpty()) {
             mobil.setNama(nama);
         }
         
         System.out.print("Jenis Mobil [" + mobil.getJenis() + "]: ");
-        String jenis = scanner.nextLine();
+        String jenis = Util.getScanner().nextLine();
         if (!jenis.isEmpty()) {
             mobil.setJenis(jenis);
         }
         
         try {
             System.out.print("Daya Listrik (kW) [" + mobil.getDayaListrik() + "]: ");
-            String dayaStr = scanner.nextLine();
+            String dayaStr = Util.getScanner().nextLine();
             if (!dayaStr.isEmpty()) {
                 mobil.setDayaListrik(Double.parseDouble(dayaStr));
             }
             
             System.out.print("Kapasitas Baterai (kWh) [" + mobil.getKapasitasBaterai() + "]: ");
-            String kapasitasStr = scanner.nextLine();
+            String kapasitasStr = Util.getScanner().nextLine();
             if (!kapasitasStr.isEmpty()) {
                 mobil.setKapasitasBaterai(Integer.parseInt(kapasitasStr));
             }
             
             System.out.print("Kapasitas Penumpang [" + mobil.getKapasitasPenumpang() + "]: ");
-            String penumpangStr = scanner.nextLine();
+            String penumpangStr = Util.getScanner().nextLine();
             if (!penumpangStr.isEmpty()) {
                 mobil.setKapasitasPenumpang(Integer.parseInt(penumpangStr));
             }
             
             System.out.print("Jangkauan (km) [" + mobil.getJangkauan() + "]: ");
-            String jangkauanStr = scanner.nextLine();
+            String jangkauanStr = Util.getScanner().nextLine();
             if (!jangkauanStr.isEmpty()) {
                 mobil.setJangkauan(Double.parseDouble(jangkauanStr));
             }
@@ -172,7 +171,7 @@ public class MobilKBT {
     public void hapusMobil() {
         System.out.println("\n=== HAPUS MOBIL KBT ===");
         System.out.print("Masukkan ID Mobil yang akan dihapus: ");
-        String id = scanner.nextLine();
+        String id = Util.getScanner().nextLine();
         
         DataMobilKBT mobil = cariMobilById(id);
         if (mobil == null) {
@@ -184,7 +183,7 @@ public class MobilKBT {
         mobil.tampilData();
         
         System.out.print("\nApakah Anda yakin ingin menghapus mobil ini? (y/n): ");
-        String konfirmasi = scanner.nextLine();
+        String konfirmasi = Util.getScanner().nextLine();
         
         if (konfirmasi.equalsIgnoreCase("y")) {
             daftarMobil.remove(mobil);
@@ -197,7 +196,7 @@ public class MobilKBT {
     public void cariMobilByNama() {
         System.out.println("\n=== CARI MOBIL KBT BERDASARKAN NAMA ===");
         System.out.print("Masukkan Nama Mobil: ");
-        String keyword = scanner.nextLine().toLowerCase();
+        String keyword = Util.getScanner().nextLine().toLowerCase();
         
         boolean ditemukan = false;
         for (DataMobilKBT mobil : daftarMobil) {
@@ -221,7 +220,7 @@ public class MobilKBT {
         System.out.print("Masukkan Kapasitas Penumpang: ");
         
         try {
-            int kapasitas = Integer.parseInt(scanner.nextLine());
+            int kapasitas = Integer.parseInt(Util.getScanner().nextLine());
             
             boolean ditemukan = false;
             for (DataMobilKBT mobil : daftarMobil) {
@@ -272,7 +271,5 @@ public class MobilKBT {
         System.out.println("\nDaftar Mobil telah diurutkan berdasarkan Kapasitas Baterai!");
     }
     
-    public void close() {
-        scanner.close();
-    }
+
 }

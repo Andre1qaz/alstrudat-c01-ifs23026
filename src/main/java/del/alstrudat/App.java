@@ -1,21 +1,18 @@
 package del.alstrudat;
 
-import java.util.Scanner;
-
 public class App {
-    private static Scanner scanner = new Scanner(System.in);
     private static MobilKBT mobilManager;
     private static BarangLoader barangLoader;
-    
+
     public static void main(String[] args) {
         mobilManager = new MobilKBT();
         barangLoader = new BarangLoader();
-        
+
         boolean running = true;
         while (running) {
             tampilkanMenu();
             int pilihan = bacaInputAngka("Pilih menu: ");
-            
+
             switch (pilihan) {
                 case 1:
                     mobilManager.tampilkanSemuaMobil();
@@ -57,18 +54,16 @@ public class App {
                 default:
                     System.out.println("Pilihan tidak valid!");
             }
-            
+
             if (running) {
                 System.out.println("\nTekan Enter untuk melanjutkan...");
-                scanner.nextLine();
+                Util.getScanner().nextLine();
             }
         }
         
-        mobilManager.close();
-        barangLoader.close();
-        scanner.close();
+        Util.closeScanner();
     }
-    
+
     private static void tampilkanMenu() {
         System.out.println("\n=== APLIKASI MANAJEMEN MOBIL KBT ===");
         System.out.println("1. Tampilkan Semua Mobil KBT");
@@ -85,21 +80,21 @@ public class App {
         System.out.println("0. Keluar");
         System.out.println("========================");
     }
-    
+
     private static int bacaInputAngka(String prompt) {
         int input = -1;
         boolean valid = false;
-        
+
         while (!valid) {
             System.out.print(prompt);
             try {
-                input = Integer.parseInt(scanner.nextLine());
+                input = Integer.parseInt(Util.getScanner().nextLine());
                 valid = true;
             } catch (NumberFormatException e) {
                 System.out.println("Input tidak valid! Masukkan angka.");
             }
         }
-        
+
         return input;
     }
 }

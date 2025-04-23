@@ -1,14 +1,10 @@
 package del.alstrudat;
 
-import java.util.Scanner;
-
 public class BarangLoader {
     private LinkedList<DataBarang> daftarBarang;
-    private Scanner scanner;
     
     public BarangLoader() {
         this.daftarBarang = new LinkedList<>();
-        this.scanner = new Scanner(System.in);
         initData();
     }
     
@@ -40,7 +36,7 @@ public class BarangLoader {
     public void tambahBarang() {
         System.out.println("\n=== TAMBAH BARANG ===");
         System.out.print("ID Barang: ");
-        String id = scanner.nextLine();
+        String id = Util.getScanner().nextLine();
         
         // Cek apakah ID sudah ada
         for (DataBarang barang : daftarBarang) {
@@ -51,15 +47,14 @@ public class BarangLoader {
         }
         
         System.out.print("Nama Barang: ");
-        String nama = scanner.nextLine();
-        
+        String nama = Util.getScanner().nextLine();        
         System.out.print("Jenis Barang: ");
-        String jenis = scanner.nextLine();
+        String jenis = Util.getScanner().nextLine();
         
         double harga = 0;
         try {
             System.out.print("Harga Barang: ");
-            harga = Double.parseDouble(scanner.nextLine());
+            harga = Double.parseDouble(Util.getScanner().nextLine());
         } catch (NumberFormatException e) {
             System.out.println("Input harga tidak valid!");
             return;
@@ -71,6 +66,5 @@ public class BarangLoader {
     }
     
     public void close() {
-        scanner.close();
     }
 }
