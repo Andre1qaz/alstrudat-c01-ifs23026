@@ -1,3 +1,4 @@
+
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -24,7 +25,9 @@ Kapasitas Baterai: 65 kWh
 Kapasitas Penumpang: 5 orang
 Jangkauan: 415.0 km
 ------------------------
+
 Tekan Enter untuk melanjutkan...
+
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -34,3 +37,9 @@ Tekan Enter untuk melanjutkan...
 6. Cari Mobil Berdasarkan Nama
 7. Cari Mobil Berdasarkan Kapasitas Penumpang
 8. Urutkan Mobil Berdasarkan Daya Listrik
+9. Urutkan Mobil Berdasarkan Kapasitas Baterai
+10. Tampilkan Daftar Barang
+11. Tambah Barang
+0. Keluar
+========================
+Pilih menu: Terima kasih telah menggunakan aplikasi ini!

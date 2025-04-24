@@ -25,9 +25,7 @@ Kapasitas Baterai: 60 kWh
 Kapasitas Penumpang: 5 orang
 Jangkauan: 400.0 km
 ------------------------
-
 Tekan Enter untuk melanjutkan...
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
