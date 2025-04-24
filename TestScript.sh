@@ -6,14 +6,14 @@ set +e
 # Compile Java program dengan Maven
 echo "🔨 Compiling Java program..."
 if ! mvn clean package; then
-  echo "❌ Build failed! Exiting..."
+  echo "✅ Build failed! Exiting..."
   exit 1
 fi
 echo "✅ Build successful!"
 
 # Pastikan file weights.txt ada
 if [ ! -f testcases/weights.txt ]; then
-  echo "❌ Error: File testcases/weights.txt not found!"
+  echo "✅ Error: File testcases/weights.txt not found!"
   exit 1
 fi
 
