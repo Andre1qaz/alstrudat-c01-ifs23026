@@ -13,11 +13,9 @@
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 6
-
+Pilih menu: 
 === CARI MOBIL KBT BERDASARKAN NAMA ===
-Masukkan Nama Mobil: Tesla Model 3
-
+Masukkan Nama Mobil: 
 Hasil Pencarian:
 ID: KBT001
 Nama Mobil KBT: Tesla Model 3
@@ -29,7 +27,6 @@ Jangkauan: 400.0 km
 ------------------------
 
 Tekan Enter untuk melanjutkan...
-
 
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
@@ -45,5 +42,4 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 0
-Terima kasih telah menggunakan aplikasi ini!
+Pilih menu: Terima kasih telah menggunakan aplikasi ini!
