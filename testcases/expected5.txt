@@ -1,3 +1,4 @@
+
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -12,150 +13,12 @@
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 
-=== CARI MOBIL KBT BERDASARKAN KAPASITAS PENUMPANG ===
-Masukkan Kapasitas Penumpang: Mobil dengan kapasitas penumpang 10 tidak ditemukan.
-Tekan Enter untuk melanjutkan...
-=== APLIKASI MANAJEMEN MOBIL KBT ===
-1. Tampilkan Semua Mobil KBT
-2. Tambah Mobil KBT
-3. Tampilkan Detail Mobil KBT
-4. Update Data Mobil KBT
-5. Hapus Mobil KBT
-6. Cari Mobil Berdasarkan Nama
-7. Cari Mobil Berdasarkan Kapasitas Penumpang
-8. Urutkan Mobil Berdasarkan Daya Listrik
-9. Urutkan Mobil Berdasarkan Kapasitas Baterai
-10. Tampilkan Daftar Barang
-11. Tambah Barang
-0. Keluar
-========================
-Pilih menu: 
-=== CARI MOBIL KBT BERDASARKAN KAPASITAS PENUMPANG ===
-Masukkan Kapasitas Penumpang: Mobil dengan kapasitas penumpang 1 tidak ditemukan.
-Tekan Enter untuk melanjutkan...
-=== APLIKASI MANAJEMEN MOBIL KBT ===
-1. Tampilkan Semua Mobil KBT
-2. Tambah Mobil KBT
-3. Tampilkan Detail Mobil KBT
-4. Update Data Mobil KBT
-5. Hapus Mobil KBT
-6. Cari Mobil Berdasarkan Nama
-7. Cari Mobil Berdasarkan Kapasitas Penumpang
-8. Urutkan Mobil Berdasarkan Daya Listrik
-9. Urutkan Mobil Berdasarkan Kapasitas Baterai
-10. Tampilkan Daftar Barang
-11. Tambah Barang
-0. Keluar
-========================
-Pilih menu: 
-=== CARI MOBIL KBT BERDASARKAN KAPASITAS PENUMPANG ===
-Masukkan Kapasitas Penumpang: 
+Pilih menu: 6
+
+=== CARI MOBIL KBT BERDASARKAN NAMA ===
+Masukkan Nama Mobil: Chevrolet Bolt
+
 Hasil Pencarian:
-ID: KBT001
-Nama Mobil KBT: Tesla Model 3
-Jenis: Sedan
-Daya Listrik: 190.0 kW
-Kapasitas Baterai: 60 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 400.0 km
-------------------------
-ID: KBT002
-Nama Mobil KBT: Nissan Leaf
-Jenis: Hatchback
-Daya Listrik: 110.0 kW
-Kapasitas Baterai: 40 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 270.0 km
-------------------------
-ID: KBT003
-Nama Mobil KBT: Hyundai Kona Electric
-Jenis: SUV
-Daya Listrik: 150.0 kW
-Kapasitas Baterai: 64 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 415.0 km
-------------------------
-ID: KBT005
-Nama Mobil KBT: Audi e-tron
-Jenis: SUV
-Daya Listrik: 300.0 kW
-Kapasitas Baterai: 95 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 400.0 km
-------------------------
-ID: KBT007
-Nama Mobil KBT: Mercedes EQC
-Jenis: SUV
-Daya Listrik: 300.0 kW
-Kapasitas Baterai: 80 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 390.0 km
-------------------------
-ID: KBT008
-Nama Mobil KBT: Kia e-Niro
-Jenis: SUV
-Daya Listrik: 150.0 kW
-Kapasitas Baterai: 64 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 385.0 km
-------------------------
-ID: KBT009
-Nama Mobil KBT: Jaguar I-PACE
-Jenis: SUV
-Daya Listrik: 294.0 kW
-Kapasitas Baterai: 90 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 470.0 km
-------------------------
-ID: KBT010
-Nama Mobil KBT: Volkswagen ID.4
-Jenis: SUV
-Daya Listrik: 150.0 kW
-Kapasitas Baterai: 77 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 420.0 km
-------------------------
-ID: KBT011
-Nama Mobil KBT: Tesla Model Y
-Jenis: Crossover
-Daya Listrik: 220.0 kW
-Kapasitas Baterai: 75 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 505.0 km
-------------------------
-ID: KBT012
-Nama Mobil KBT: Rivian R1T
-Jenis: Pickup
-Daya Listrik: 562.0 kW
-Kapasitas Baterai: 135 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 505.0 km
-------------------------
-ID: KBT013
-Nama Mobil KBT: Ford Mustang Mach-E
-Jenis: SUV
-Daya Listrik: 248.0 kW
-Kapasitas Baterai: 88 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 490.0 km
-------------------------
-ID: KBT014
-Nama Mobil KBT: Polestar 2
-Jenis: Fastback
-Daya Listrik: 300.0 kW
-Kapasitas Baterai: 78 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 395.0 km
-------------------------
-ID: KBT015
-Nama Mobil KBT: Volvo XC40 Recharge
-Jenis: SUV
-Daya Listrik: 300.0 kW
-Kapasitas Baterai: 78 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 400.0 km
-------------------------
 ID: KBT017
 Nama Mobil KBT: Chevrolet Bolt
 Jenis: Hatchback
@@ -164,23 +27,10 @@ Kapasitas Baterai: 65 kWh
 Kapasitas Penumpang: 5 orang
 Jangkauan: 415.0 km
 ------------------------
-ID: KBT019
-Nama Mobil KBT: Lucid Air
-Jenis: Sedan Mewah
-Daya Listrik: 620.0 kW
-Kapasitas Baterai: 113 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 830.0 km
-------------------------
-ID: KBT020
-Nama Mobil KBT: BYD Atto 3
-Jenis: SUV
-Daya Listrik: 150.0 kW
-Kapasitas Baterai: 60 kWh
-Kapasitas Penumpang: 5 orang
-Jangkauan: 410.0 km
-------------------------
+
 Tekan Enter untuk melanjutkan...
+
+
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -195,4 +45,5 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: Terima kasih telah menggunakan aplikasi ini!
+Pilih menu: 0
+Terima kasih telah menggunakan aplikasi ini!
