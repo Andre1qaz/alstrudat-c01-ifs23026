@@ -13,8 +13,7 @@
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 1
-
+Pilih menu: 
 === DAFTAR MOBIL KBT ===
 
 Mobil #1
@@ -219,7 +218,6 @@ Jangkauan: 410.0 km
 
 Tekan Enter untuk melanjutkan...
 
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -234,11 +232,9 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 3
-
+Pilih menu: 
 === DETAIL MOBIL KBT ===
-Masukkan ID Mobil: KBT001
-ID: KBT001
+Masukkan ID Mobil: ID: KBT001
 Nama Mobil KBT: Tesla Model 3
 Jenis: Sedan
 Daya Listrik: 190.0 kW
@@ -248,7 +244,6 @@ Jangkauan: 400.0 km
 
 Tekan Enter untuk melanjutkan...
 
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -263,5 +258,4 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 0
-Terima kasih telah menggunakan aplikasi ini!
+Pilih menu: Terima kasih telah menggunakan aplikasi ini!
