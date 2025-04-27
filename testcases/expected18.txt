@@ -13,12 +13,10 @@
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 9
-
+Pilih menu: 
 Daftar Mobil telah diurutkan berdasarkan Kapasitas Baterai!
 
 Tekan Enter untuk melanjutkan...
-
 
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
@@ -34,8 +32,7 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 1
-
+Pilih menu: 
 === DAFTAR MOBIL KBT ===
 
 Mobil #1
@@ -240,7 +237,6 @@ Jangkauan: 505.0 km
 
 Tekan Enter untuk melanjutkan...
 
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -255,8 +251,7 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 10
-
+Pilih menu: 
 === DAFTAR BARANG ===
 
 Barang #1
@@ -296,7 +291,6 @@ Harga: Rp.4500000.0
 
 Tekan Enter untuk melanjutkan...
 
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -311,5 +305,4 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 0
-Terima kasih telah menggunakan aplikasi ini!
+Pilih menu: Terima kasih telah menggunakan aplikasi ini!

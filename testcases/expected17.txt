@@ -13,14 +13,11 @@
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 6
-
+Pilih menu: 
 === CARI MOBIL KBT BERDASARKAN NAMA ===
-Masukkan Nama Mobil: Veloz
-Mobil dengan nama yang mengandung "veloz" tidak ditemukan.
+Masukkan Nama Mobil: Mobil dengan nama yang mengandung "veloz" tidak ditemukan.
 
 Tekan Enter untuk melanjutkan...
-     
 
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
@@ -36,14 +33,11 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 6
-
+Pilih menu: 
 === CARI MOBIL KBT BERDASARKAN NAMA ===
-Masukkan Nama Mobil: Toyota
-Mobil dengan nama yang mengandung "toyota" tidak ditemukan.
+Masukkan Nama Mobil: Mobil dengan nama yang mengandung "toyota" tidak ditemukan.
 
 Tekan Enter untuk melanjutkan...
-
 
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
@@ -59,5 +53,4 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 0
-Terima kasih telah menggunakan aplikasi ini!
+Pilih menu: Terima kasih telah menggunakan aplikasi ini!

@@ -13,8 +13,7 @@
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 1
-
+Pilih menu: 
 === DAFTAR MOBIL KBT ===
 
 Mobil #1
@@ -219,7 +218,6 @@ Jangkauan: 410.0 km
 
 Tekan Enter untuk melanjutkan...
 
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -234,17 +232,11 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 2
-
+Pilih menu: 
 === TAMBAH MOBIL KBT ===
-ID Mobil:
-Nama Mobil:
-Jenis Mobil:
-Daya Listrik (kW):
-Input tidak valid! Pastikan input angka yang benar.
+ID Mobil: Nama Mobil: Jenis Mobil: Daya Listrik (kW): Input tidak valid! Pastikan input angka yang benar.
 
 Tekan Enter untuk melanjutkan...
-
 
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
@@ -260,14 +252,11 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 3
-
+Pilih menu: 
 === DETAIL MOBIL KBT ===
-Masukkan ID Mobil:
-Mobil dengan ID  tidak ditemukan!
+Masukkan ID Mobil: Mobil dengan ID  tidak ditemukan!
 
 Tekan Enter untuk melanjutkan...
-
 
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
@@ -283,14 +272,11 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 4
-
+Pilih menu: 
 === UPDATE DATA MOBIL KBT ===
-Masukkan ID Mobil yang akan diupdate:
-Mobil dengan ID  tidak ditemukan!
+Masukkan ID Mobil yang akan diupdate: Mobil dengan ID  tidak ditemukan!
 
 Tekan Enter untuk melanjutkan...
-
 
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
@@ -306,14 +292,11 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 5
-
+Pilih menu: 
 === HAPUS MOBIL KBT ===
-Masukkan ID Mobil yang akan dihapus:
-Mobil dengan ID  tidak ditemukan!
+Masukkan ID Mobil yang akan dihapus: Mobil dengan ID  tidak ditemukan!
 
 Tekan Enter untuk melanjutkan...
-
 
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
@@ -329,11 +312,9 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 6
-
+Pilih menu: 
 === CARI MOBIL KBT BERDASARKAN NAMA ===
-Masukkan Nama Mobil:
-
+Masukkan Nama Mobil: 
 Hasil Pencarian:
 ID: KBT001
 Nama Mobil KBT: Tesla Model 3
@@ -498,7 +479,6 @@ Jangkauan: 410.0 km
 
 Tekan Enter untuk melanjutkan...
 
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -513,15 +493,12 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 7
-
+Pilih menu: 
 === CARI MOBIL KBT BERDASARKAN KAPASITAS PENUMPANG ===
-Masukkan Kapasitas Penumpang:
-Input tidak valid! Masukkan angka untuk kapasitas penumpang.
+Masukkan Kapasitas Penumpang: Input tidak valid! Masukkan angka untuk kapasitas penumpang.
 
 Tekan Enter untuk melanjutkan...
 
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -536,13 +513,11 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 8
-
+Pilih menu: 
 Daftar Mobil telah diurutkan berdasarkan Daya Listrik!
 
 Tekan Enter untuk melanjutkan...
 
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -557,13 +532,11 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 9
-
+Pilih menu: 
 Daftar Mobil telah diurutkan berdasarkan Kapasitas Baterai!
 
 Tekan Enter untuk melanjutkan...
 
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -578,8 +551,7 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 10
-
+Pilih menu: 
 === DAFTAR BARANG ===
 
 Barang #1
@@ -619,7 +591,6 @@ Harga: Rp.4500000.0
 
 Tekan Enter untuk melanjutkan...
 
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -634,18 +605,12 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 11
-
+Pilih menu: 
 === TAMBAH BARANG ===
-ID Barang:
-Nama Barang:
-Jenis Barang:
-Harga Barang:
-Input harga tidak valid!
+ID Barang: Nama Barang: Jenis Barang: Harga Barang: Input harga tidak valid!
 
 Tekan Enter untuk melanjutkan...
 
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -660,5 +625,4 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 0
-Terima kasih telah menggunakan aplikasi ini!
+Pilih menu: Terima kasih telah menggunakan aplikasi ini!
