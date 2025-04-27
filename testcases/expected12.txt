@@ -13,7 +13,8 @@
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 
+Pilih menu: 10
+
 === DAFTAR BARANG ===
 
 Barang #1
@@ -53,6 +54,7 @@ Harga: Rp.4500000.0
 
 Tekan Enter untuk melanjutkan...
 
+
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -67,12 +69,15 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 
+Pilih menu: 3
+
 === DETAIL MOBIL KBT ===
-Masukkan ID Mobil: Mobil dengan ID 89 tidak ditemukan!
+Masukkan ID Mobil: 89
+Mobil dengan ID 89 tidak ditemukan!
 
 Tekan Enter untuk melanjutkan...
 
+
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -87,7 +92,8 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 
+Pilih menu: 1
+
 === DAFTAR MOBIL KBT ===
 
 Mobil #1
@@ -292,6 +298,7 @@ Jangkauan: 410.0 km
 
 Tekan Enter untuk melanjutkan...
 
+
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -306,3 +313,5 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
+Pilih menu: 0
+Terima kasih telah menggunakan aplikasi ini!
