@@ -1,4 +1,3 @@
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -13,48 +12,39 @@
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 10
-
+Pilih menu: 
 === DAFTAR BARANG ===
-
 Barang #1
 ID: B001
 Nama: Baterai Lithium-ion
 Jenis: Komponen
 Harga: Rp.5000000.0
 ------------------------
-
 Barang #2
 ID: B002
 Nama: Motor Listrik 150kW
 Jenis: Penggerak
 Harga: Rp.2.0E7
 ------------------------
-
 Barang #3
 ID: B003
 Nama: Converter DC/DC
 Jenis: Elektronik
 Harga: Rp.3500000.0
 ------------------------
-
 Barang #4
 ID: B004
 Nama: Inverter AC
 Jenis: Elektronik
 Harga: Rp.7500000.0
 ------------------------
-
 Barang #5
 ID: B005
 Nama: Charger Onboard
 Jenis: Pengisian
 Harga: Rp.4500000.0
 ------------------------
-
 Tekan Enter untuk melanjutkan...
-
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -69,18 +59,10 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 11
-
+Pilih menu: 
 === TAMBAH BARANG ===
-ID Barang: VIP01
-Nama Barang: Yonex Nanoray
-Jenis Barang: Raket
-Harga Barang: 2000000
-Barang berhasil ditambahkan!
-
+ID Barang: Nama Barang: Jenis Barang: Harga Barang: Barang berhasil ditambahkan!
 Tekan Enter untuk melanjutkan...
-
-
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
 2. Tambah Mobil KBT
@@ -95,5 +77,4 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 0
-Terima kasih telah menggunakan aplikasi ini!
+Pilih menu: Terima kasih telah menggunakan aplikasi ini!
