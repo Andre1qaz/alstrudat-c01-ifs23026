@@ -13,14 +13,11 @@
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 5
-
+Pilih menu: 
 === HAPUS MOBIL KBT ===
-Masukkan ID Mobil yang akan dihapus: 1
-Mobil dengan ID 1 tidak ditemukan!
+Masukkan ID Mobil yang akan dihapus: Mobil dengan ID 1 tidak ditemukan!
 
 Tekan Enter untuk melanjutkan...
-
 
 === APLIKASI MANAJEMEN MOBIL KBT ===
 1. Tampilkan Semua Mobil KBT
@@ -36,5 +33,4 @@ Tekan Enter untuk melanjutkan...
 11. Tambah Barang
 0. Keluar
 ========================
-Pilih menu: 0
-Terima kasih telah menggunakan aplikasi ini!
+Pilih menu: Terima kasih telah menggunakan aplikasi ini!
