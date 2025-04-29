@@ -37,6 +37,7 @@ Jelaskan alur program dari mulai aplikasi dijalankan hingga data ditampilkan.
 
 untuk class diagram dari kode yang dapat langsung di akses ataupun kode yang digunakan dalam proyek ini adalah sebagai berikut
 
+
 class diagram App.java
 +-------------------------------------------------+
 |                     App                         |
