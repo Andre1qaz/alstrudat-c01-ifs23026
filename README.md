@@ -20,39 +20,30 @@ Proyek Java
 ## Deskripsi Kelas
 
 ### App.java
-
 Kelas utama yang menjalankan aplikasi dan menampilkan menu interaktif untuk pengguna.
 
 ### Data.java
-
 Kelas abstrak dasar yang digunakan untuk mendefinisikan atribut dan metode umum untuk semua jenis data.
 
 ### DataBarang.java
-
 Kelas yang mewakili data barang, turunan dari kelas Data. Memiliki atribut tambahan seperti jenis barang dan harga.
 
 ### DataMobilKBT.java
-
 Kelas yang mewakili data mobil KBT, turunan dari kelas Data. Memiliki atribut khusus seperti daya listrik, kapasitas baterai, kapasitas penumpang, dan jangkauan.
 
 ### BarangLoader.java
-
 Kelas yang mengelola daftar barang menggunakan LinkedList. Menyediakan fungsi untuk menampilkan dan menambah data barang.
 
 ### MobilKBT.java
-
 Kelas yang mengelola daftar mobil KBT menggunakan LinkedList. Menyediakan berbagai fungsi seperti menambah, menampilkan, memperbarui, menghapus, mencari, dan mengurutkan data mobil.
 
 ### LinkedList.java
-
 Implementasi struktur data Linked List yang digunakan untuk menyimpan dan mengelola koleksi objek.
 
 ### LinkedListHelper.java
-
 Kelas pembantu yang menyediakan fungsi-fungsi tambahan untuk manipulasi LinkedList, seperti pengurutan.
 
 ### Util.java
-
 Berisi fungsi-fungsi utilitas umum seperti pengelolaan input/output untuk mendukung aplikasi.
 
 ## Diagram Hubungan Antar Kelas
@@ -69,12 +60,12 @@ classDiagram
         -tampilkanMenu() void
         -bacaInputAngka(String prompt) int
     }
-
+    
     class Util {
         +getScanner() Scanner
         +closeScanner() void
     }
-
+    
     class Data {
         <<abstract>>
         #String id
@@ -86,7 +77,7 @@ classDiagram
         +setNama(String nama) void
         +tampilData() void*
     }
-
+    
     class DataBarang {
         -String jenis
         -double harga
@@ -97,7 +88,7 @@ classDiagram
         +setHarga(double harga) void
         +tampilData() void
     }
-
+    
     class DataMobilKBT {
         -String jenis
         -double dayaListrik
@@ -117,7 +108,7 @@ classDiagram
         +setJangkauan(double jangkauan) void
         +tampilData() void
     }
-
+    
     class LinkedList~T~ {
         -Node~T~ head
         -int size
@@ -131,11 +122,11 @@ classDiagram
         +getLast() T
         +clear() void
     }
-
+    
     class LinkedListHelper {
         +sortList~T~(LinkedList~T~ list, Comparator~T~ comparator) void
     }
-
+    
     class BarangLoader {
         -LinkedList~DataBarang~ daftarBarang
         +BarangLoader()
@@ -144,7 +135,7 @@ classDiagram
         +tambahBarang() void
         +close() void
     }
-
+    
     class MobilKBT {
         -LinkedList~DataMobilKBT~ daftarMobil
         +MobilKBT()
@@ -160,11 +151,11 @@ classDiagram
         +sortMobilByKapasitasBaterai() void
         -cariMobilById(String id) DataMobilKBT
     }
-
+    
     %% Inheritance relationships
     Data <|-- DataBarang
     Data <|-- DataMobilKBT
-
+    
     %% Usage relationships
     App --> MobilKBT : uses
     App --> BarangLoader : uses
@@ -178,9 +169,8 @@ classDiagram
 ```
 
 Keterangan hubungan antar kelas:
-
 - **Inheritance (Pewarisan)**: `DataBarang` dan `DataMobilKBT` mewarisi `Data` sebagai kelas abstrak induk
-- **Dependency (Ketergantungan)**:
+- **Dependency (Ketergantungan)**: 
   - `App` menggunakan `MobilKBT`, `BarangLoader`, dan `Util`
   - `MobilKBT` dan `BarangLoader` menggunakan `LinkedList` dan `Util`
   - `LinkedListHelper` memanipulasi `LinkedList`
@@ -226,4 +216,4 @@ Andre Christian Saragih
 
 ---
 
-_Program ini dibuat sebagai proyek untuk mempelajari implementasi struktur data Linked List dalam aplikasi Java._
+*Program ini dibuat sebagai proyek untuk mempelajari implementasi struktur data Linked List dalam aplikasi Java.*
